@@ -6,10 +6,10 @@ Reduces time manually importing files, using text to columns, etc.'''
 
 
 # List the input folder:
-file_location = "/Volumes/GoogleDrive/My Drive/PhD/20200201 SiNx water ingress raw results/20200206 I-V scans for SiNx (initial)/jeremy/F1_lowfield/"
+file_location = "Your file location."
 # Write the intended output file directory:
 output_file_directory = '/'.join(file_location.split("/")[:-2]) # for my convenience it moves up one file level
-output_filename = "20200206 Initial SiNx results.xlsx"
+output_filename = "output.xlsx"
 
 # Nothing should need to be touched beyond this point (hopefully!)
 
